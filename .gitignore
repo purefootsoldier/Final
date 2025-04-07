@@ -1,0 +1,47 @@
+############################
+# 🌐 Next.js / Node (cultivosv3)
+############################
+cultivosv3/node_modules/
+cultivosv3/.next/
+cultivosv3/out/
+cultivosv3/.env*
+cultivosv3/.DS_Store
+cultivosv3/.idea/
+cultivosv3/coverage/
+cultivosv3/pnpm-lock.yaml
+cultivosv3/yarn.lock
+cultivosv3/*.log
+cultivosv3/.vscode/
+
+############################
+# ⚙️ .NET Core / Visual Studio (API)
+############################
+API/bin/
+API/obj/
+API/.vs/
+API/.vscode/
+API/*.user
+API/*.suo
+API/*.cache
+API/*.log
+API/*.pdb
+API/*.dbmdl
+API/Secrets/
+API/secrets.json
+API/TestResults/
+API/Migrations/
+
+############################
+# 🔧 Sistema y generales
+############################
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.vscode/
+.idea/
+*.tgz
+*.lock

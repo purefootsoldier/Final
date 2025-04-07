@@ -1,0 +1,142 @@
+[
+  {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.DTOs.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.DTOs.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.DTOs.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.DTOs.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.DTOs.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.HistorialController",
+    "Method": "GetAreaChartLluvia",
+    "RelativePath": "api/Historial/AreaChart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.HistorialController",
+    "Method": "GetHistorialBarras",
+    "RelativePath": "api/Historial/barras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.HistorialController",
+    "Method": "GetPromediosPorFechaHoraMinutoSegundo",
+    "RelativePath": "api/Historial/lineChart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ParcelasController",
+    "Method": "ActualizarDesdeAPI",
+    "RelativePath": "api/Parcelas/actualizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ParcelasController",
+    "Method": "ObtenerUltimasParcelasEliminadas",
+    "RelativePath": "api/Parcelas/ultimas-eliminadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ParcelasController",
+    "Method": "Probar",
+    "RelativePath": "E",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
